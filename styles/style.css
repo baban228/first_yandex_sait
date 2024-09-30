@@ -1,0 +1,208 @@
+.page {
+  min-width: 1100px;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  max-width: 1600px;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+div{
+  border: 1px solid red;
+}
+
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  /* выше установили ограничения для секции */
+  border: 1px solid blue;
+  display: flex;
+  position: relative;
+  background-color: #f2f2f2;
+}
+
+.description{
+  margin-top: 100px;
+  border: 1px solid blue;
+  display: flex;
+}
+
+.digits{
+  margin-top: 100px;
+}
+
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+}
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
+
+.logo{
+  position: relative;
+  
+}
+
+.logo__place_header{
+
+  height: 32px;
+  width: 228px;
+  margin-top: 30px;
+  margin-left: 64px;
+  position: absolute;
+  background-image: url("file:///C:/Users/karsa/front/first_yandex_sait/image/logo_place_header.svg");
+  z-index: 1;
+}
+
+.header__title{
+  align-items: center;
+  margin-left: 64px;
+  margin: auto 64px;
+  width: 730px;
+}
+
+.header__subtitle{
+  position: absolute;
+  margin-bottom: 30px;
+  margin-left: 64px;
+  bottom: 0;
+  width: 388px;
+}
+
+.header__title_text{
+  line-height:96px;
+  font-size: 102px;
+  font-weight: 600;
+  z-index: 1;
+}
+
+.header__subtitle_text{
+  line-height: 25px;
+  font-size: 18px;
+  font-style: normal;
+  z-index: 1;
+}
+
+.header__main-illustration{
+  border: 1px solid green;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 608px;
+  width: 765px;
+  z-index: 2;
+}
+
+.header__square-pic{
+  position: absolute;
+  top: 64px;
+  right: 0;
+  background-color:  #2f80ed;
+}
+
+.two-columns{
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  min-height: 336px;
+  min-width: 784px;
+  width: 80%;
+  position: relative;
+}
+
+.two-columns__brief{
+  position: absolute;
+  width: 175px;
+  height: 100%;
+}
+
+.two-columns__brief_text{
+  line-height:1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+  margin: 0 auto;
+}
+
+.two-columns__main-text{
+  width: 80%;
+  position: absolute;
+  right: 0;
+  height: 100%;
+}
+
+.two-columns__paragraph_center{
+  margin-top: 30px;
+}
+
+.two-columns__paragraph_bottom{
+  margin-top: 30px;
+}
+
+.two-columns__paragraph_text{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 auto;
+}
+
+.two-columns__span-accent{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.section-title{
+  display: flex;
+  width: 60%;
+  align-items: center;
+  margin: auto;
+}
+.section-subtitle{
+  margin-top: 20px;
+  display: flex;
+  width: 60%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-title_text{
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  margin: 0 auto;
+}
+.section-subtitle_text{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 auto;
+}
+.table{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  width: 1100px;
+  min-height: 500px;
+  position: relative;
+}
+.table__cell{
+  position: absolute;
+  top: 60px;
+  width: 250px;
+  height: 100%;
+}
+.table__cell_title-text{
+  margin: 0 0;
+}
