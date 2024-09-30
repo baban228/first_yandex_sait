@@ -201,22 +201,48 @@ div{
   margin-right: auto;
   width: 1100px;
   min-height: 0;
-  justify-content:space-between;
-  flex-wrap:wrap;
+  justify-content: space-between;
+  flex-wrap: wrap;
 
 }
 .table__cell{
-  margin-top: 60px;
   width: 250px;
   height: 100%;
+}
+.table__cell_theme_dark{
+  width: 200px;
+  height: 100%;
+  z-index: 1;
+}
+.table__cell_indel_sixty{
+  margin-top: 60px;
+}
+.table__cell_indel_eighty{
+  margin-top: 80px;
+}
+.section__indel_ninty{
+  margin-top: 90px;
 }
 .table__cell_title-text{
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  margin: 0 ;
+  margin: 0;
+}
+.table__cell_title-text_dark{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  color:white;
 }
 .table__cell_content-text{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0 ;
+}
+.table__cell_content-text_dark{
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -249,13 +275,21 @@ div{
   z-index: 2;
 
 }
+.feynman__link{
+  display: inline-block;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  
+}
 .feynman__main-illustration{
   position: absolute;
   height: 637px;
   width: 867px;
   bottom: 0;
-  left:  0;
-  border: 1px solid green;
+  left: 0;
   z-index: 1;
 }
 .feynman__title_text{
@@ -271,5 +305,57 @@ div{
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+}
+.feynman__link_text{
+  margin: 0 ;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+.kaufman{
+  border: 1px solid blue;
+  flex-direction: column;
+  display: flex;
+  height: 100%;
+  background-color:  #1f1f1f;
+  overflow: hidden; 
+  position: relative;
 
+}
+.section-title_theme_dark{
+  width: 60%;
+  align-items: center;
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-subtitle_theme_dark{
+  display: flex;
+  width: 60%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-title_text_dark{
+  line-height: 1.15;
+  font-size: 64px;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+.section-subtitle_text_dark{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 auto;
+  color: white;
+}
+.kaufman__triangle{
+  background-size: cover;
+  background-image: url("file:///C:/Users/karsa/front/first_yandex_sait/image/kaufman-triangle.svg");
+  position: absolute;
+  height: 877px;
+  width: 877px;
+  right: -210px;
 }
