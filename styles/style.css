@@ -359,3 +359,122 @@ div{
   width: 877px;
   right: -210px;
 }
+.footer{
+  min-height: 350px;
+  background-color: #1f1f1f;
+  position: relative;
+  
+}
+.footer__columns{
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f1f1f;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 250px;
+  top: 60px;
+  border: 1px solid rgb(194, 7, 236);
+  flex-wrap: wrap;
+  position: relative;
+}
+.footer__columns_content_copyright{
+  flex-basis: 711px;
+  border: 1px solid rgb(194, 7, 236);
+  height: 100%;
+}
+.footer__columns_content_info{
+  
+  width: 126px;
+  height: 100%;
+  position: relative;
+
+}
+.footer__columns_content_social{
+  width: 126px;
+  height: 100%;
+  position: relative;
+}
+
+.logo__place_footer{
+  height: 32px;
+  width: 228px;
+  display: flexbox;
+  position: absolute;
+  background-image: url("file:///C:/Users/karsa/front/first_yandex_sait/image/logo_place_footer.svg");
+  z-index: 1;
+}
+
+.footer__author{
+  position: absolute;
+  display: flex;
+  height: auto;
+  width: auto;
+  bottom: 18px;
+  left: 0;
+  z-index: 2;
+}
+
+.footer__column-heading{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+.footer__column-list{
+  display: flex;
+  flex-direction: column;
+  left: 0;
+
+}
+.footer__column-link{
+  display: flex;
+  text-underline-position: under;
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0 auto;
+  color: white;
+}
+
+.footer__author_text{
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0 auto;
+  color: white;
+}
+
+.footer__column-heading_text{
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 auto;
+  color: white;
+}
+.footer__social{
+  display: flex;
+  height: 100%;
+  width: auto;
+}
+.footer__social-icon {
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 16px;
+}
+.footer__social_place_text{
+  margin-left: 10px;
+  width: auto;
+  height: 100%;
+}
+.footer__column-link_text{
+  display: flex;
+  text-underline-position: under;
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0 auto;
+  color: white;
+}
