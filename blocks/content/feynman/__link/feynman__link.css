@@ -1,0 +1,8 @@
+.feynman__link {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    right: 48px;
+  }

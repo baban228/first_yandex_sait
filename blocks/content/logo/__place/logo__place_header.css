@@ -1,0 +1,10 @@
+.logo__place_header {
+
+    height: 32px;
+    width: 228px;
+    margin-top: 30px;
+    margin-left: 64px;
+    position: absolute;
+    background-image: url("file:///C:/Users/karsa/front/first_yandex_sait/image/logo_place_header.svg");
+    z-index: 1;
+  }

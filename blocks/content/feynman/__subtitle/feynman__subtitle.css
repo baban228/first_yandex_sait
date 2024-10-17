@@ -1,0 +1,9 @@
+.feynman__subtitle {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+  }

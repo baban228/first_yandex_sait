@@ -347,3 +347,17 @@ template {
 [hidden] {
   display: none;
 }
+
+.body__indel_up_hundred {
+  margin-top: 100px;
+}
+
+.body__indel_up_hundredSixty {
+  margin-top: 110px;
+}
+.body__indel_down_hundred {
+  margin-bottom: 100px;
+}
+.body__indel_up_hundred_five {
+  margin-top: 105px;
+}

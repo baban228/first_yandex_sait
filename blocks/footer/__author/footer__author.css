@@ -1,0 +1,9 @@
+.footer__author {
+    position: absolute;
+    display: flex;
+    height: auto;
+    width: auto;
+    bottom: 18px;
+    left: 0;
+    z-index: 2;
+  }

@@ -1,0 +1,11 @@
+.video__ifreams {
+    display: flex;
+    height: 316px;
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 2;
+}
